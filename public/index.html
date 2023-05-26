@@ -1,34 +1,48 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Welcome to my portfolio!</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio - Home</title>
 </head>
-
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Portfolio Home</h1>
-        </div>
-        <div class="nav">
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="assignments.php">Assignments</a></li>
-            </ul>
-        </div>
-        <div class="content">
-            <p>My name is Byron and I am a student at Oregon State University. I am studying Computer Science as my third degree
-                in addition to a Bachelors in Management Information Systems and International Business.
-            </p>
-        </div>
-        <div class="footer">
-            <p><script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script></p>
-            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="byronboots" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/byronboots?trk=profile-badge">Byron Boots</a></div>
-            <div><a class="github-button" href="https://github.com/byronboots" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Follow @byronboots on GitHub">Follow @byronboots</a></div>
-            
-        </div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="setup.html">Setup</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <img src="computer_stock.jpg" alt="Computer with code on the screen">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>This is my portfolio website for sharing my projects.</p>
     </div>
+  </div>
+
+  <section class="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-tiles">
+      <a href="projects.html" class="project-tile">
+        <h3>Project 1</h3>
+      </a>
+      <a href="projects.html" class="project-tile">
+        <h3>Project 2</h3>
+      </a>
+      <a href="projects.html" class="project-tile">
+        <h3>Project 3</h3>
+      </a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
 </html>
